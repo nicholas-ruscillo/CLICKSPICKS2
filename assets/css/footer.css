@@ -1,0 +1,15 @@
+footer{
+    background-color:#e5173e;
+    color:black;
+    max-width:1152px;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+}
+
+footer div a{
+    color:black;
+    text-decoration:underline;
+}
+
