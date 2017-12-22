@@ -1,7 +1,7 @@
 -- credentials and database name should be changes for production instances
 -- this following scripts should be run separately from the DB table and DATA scripts as ROOT
 
-create database cp;
+create database cp default character set utf8 default collate utf8_general_ci;
 create user cp;
 grant all on cp.* to cp@localhost identified by 'cp';
 
@@ -12,6 +12,7 @@ grant all on cp.* to cp@localhost identified by 'cp';
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+05:00";
+SET names utf8;
 
 --
 -- Table structure for table `ads`
