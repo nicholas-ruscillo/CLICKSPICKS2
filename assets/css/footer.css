@@ -1,11 +1,12 @@
 footer{
-    background-color:#e5173e;
+    background-color:lightgrey;
     color:black;
     max-width:1152px;
     width:100%;
     margin-left:auto;
     margin-right:auto;
     padding:10px;
+    font-size:10pt;
 }
 
 footer div a{
