@@ -3,8 +3,8 @@
 <head>
     <title><?= $title ?></title>
     
-    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="<?= base_url("assets/images/cp.ico") ?>" rel="shortcut icon" type="image/x-icon" />
+    <link href="<?= base_url("assets/images/cp.ico") ?>" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="<?= base_url("assets/css/bootstrap/bootstrap.min.css") ?>" />
     <link rel="stylesheet" href="<?= base_url("assets/css/justified-nav.css") ?>" />
     <link rel="stylesheet" href="<?= base_url("assets/css/content.css") ?>" />
@@ -48,10 +48,4 @@
             </nav>
         </header>
         
-        <main role="main">
-          
-        <!-- Jumbotron -->
-        <div class="jumbotron">
-            <h1>Marketing stuff!</h1>
-            <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-        </div>          
+        <main role="main">          
