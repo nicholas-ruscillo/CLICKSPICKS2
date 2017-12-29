@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="<?= base_url("assets/css/justified-nav.css") ?>" />
     <link rel="stylesheet" href="<?= base_url("assets/css/content.css") ?>" />
     <link rel="stylesheet" href="<?= base_url("assets/css/footer.css") ?>" />
+    <link rel="stylesheet" href="<?= base_url("assets/css/" . $css . ".css") ?>" />
     
     <script type="text/javascript" src="<?= base_url("assets/js/bootstrap/jquery-slim.min.js") ?>"></script>
     <script type="text/javascript" src="<?= base_url("assets/js/bootstrap/popper.min.js") ?>"></script>
@@ -26,7 +27,17 @@
 <body>
     <div class="container">
         <header class="masthead">
-            <h3 class="text-muted">Project name</h3>
+            <div class="row">
+                <div class="col-lg-2">
+                    <img src="<?= base_url("assets/images/cp_logo.gif") ?>" border="0" class="img-responsive" />
+                </div>
+                <div class="col-lg-8">
+                    <h1 class="text-md-center">Welcome to ClickPicks!</h1>
+                    <h3 class="text-md-center">A central jump-point for kids-safe websites</h3>
+                </div>
+                <div class="col-lg-2">
+                </div>
+            </div>
 
             <nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
