@@ -46,13 +46,13 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav text-md-center nav-justified w-100">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Kids<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="kids">Kids<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Youths</a>
+                            <a class="nav-link" href="youths">Youths</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Teens</a>
+                            <a class="nav-link" href="teens">Teens</a>
                         </li>
                     </ul>
                 </div>
