@@ -36,10 +36,11 @@
                     <h3 class="text-md-center">A central jump-point for kids-safe websites</h3>
                 </div>
                 <div class="col-lg-2">
+                    <img src="<?= base_url("assets/images/cp_logo.gif") ?>" border="0" class="img-responsive" />
                 </div>
             </div>
 
-            <nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
+            <nav class="navbar navbar-expand-md navbar-light rounded mb-3">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

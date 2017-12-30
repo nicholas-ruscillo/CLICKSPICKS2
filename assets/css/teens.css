@@ -3,3 +3,19 @@ body{
     background-repeat: repeat;
     background-color: lightgrey;     
 }
+
+.navbar{
+    background-image: linear-gradient(to bottom, #EEE 0%, #CCC 100%);
+}
+
+.jumbotron{
+    background-image: linear-gradient(to bottom, #F9787D 0%, #F64A53 100%);
+}
+
+#main_content{
+    background-image: linear-gradient(to bottom, #F9787D 0%, #F64A53 100%);
+}
+
+footer{
+    background-image: linear-gradient(to bottom, #EEE 0%, #CCC 100%);
+}

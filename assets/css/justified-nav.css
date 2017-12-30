@@ -11,16 +11,22 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
-  text-align: center;
-  background-color: transparent;
-}
-.jumbotron .btn {
-  padding: 14px 24px;
-  font-size: 21px;
+    color:rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding:1.5rem;
+    margin-bottom:1em;
 }
 
+.jumbotron .btn {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.lead{
+    font-size:1em;
+    text-align:justify;
+}
 .navbar {
-  background-image: linear-gradient(to bottom, #f7f7f7 0%, #eee 100%);
   border: 1px solid #e5e5e5;
 }
 

@@ -1,7 +1,7 @@
         </main>
     
         <!-- footer section -->
-        <footer class="container">
+        <footer class="container rounded">
             <div class="row">
                 <div class="text-left col-6">ClicksPicks &copy; Copyright <?= date("Y") ?>. All rights reserved.</div>
                 <div class="text-right col-6">
