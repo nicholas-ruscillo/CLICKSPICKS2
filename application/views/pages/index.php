@@ -20,9 +20,9 @@
                         <th>Rank</th>
                         <th>Website</th>
                         <th class="text-right">Clicks</th>
-                        <th class="text-right">Comments</th>
-                        <th class="text-right">Likes</th>
-                        <th class="text-right">Dislikes</th>
+                        <th class="text-md-center"><img src="<?= base_url("assets/images/comments.gif") ?>" border="0" title="comments" alt="comment" /></th>
+                        <th class="text-md-center"><img src="<?= base_url("assets/images/yes.gif") ?>" border="0" title="comments" alt="comment" /></th>
+                        <th class="text-md-center"><img src="<?= base_url("assets/images/no.gif") ?>" border="0" title="comments" alt="comment" /></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -34,9 +34,9 @@
                         echo '<td>' . $rank . '</td>';
                         echo '<td><a href="' . $pick['url'] . '" target="_blank">' . $pick['title'] . '</a></td>';
                         echo '<td class="text-right">' . $pick['clicks'] . '</td>';
-                        echo '<td class="text-right">' . $pick['comments'] . '</td>';
-                        echo '<td class="text-right">' . $pick['positive'] . '</td>';
-                        echo '<td class="text-right">' . $pick['negative'] . '</td>';                        
+                        echo '<td class="text-md-center">' . $pick['comments'] . '</td>';
+                        echo '<td class="text-md-center">' . $pick['positive'] . '</td>';
+                        echo '<td class="text-md-center">' . $pick['negative'] . '</td>';                        
                         echo '</tr>';
                         
                         $rank++;
