@@ -4,7 +4,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Kids extends CI_Controller {
     public function index(){
         $this->load->helper('url');
-        $this->load->model('KidsModel');                
+        $this->load->model('KidsModel');  
+        $this->load->model('AdsModel');
         
         $data['title'] = 'Your central jump-point for kid-safe games, education and interest websites - by ClicksPicks';
         $data['description'] = 'There is no need to try and remember all the URLs of the sites your kid loves - ClicksPicks does it for you. Simply click on the pre-verified kid-friendly site name to open a new window and instantly be taken to that site.';
@@ -13,6 +14,7 @@ class Kids extends CI_Controller {
         $data['css'] = "kids";
         
         $data['picks'] = $this->KidsModel->index();
+        $data['ads'] = $this->AdsModel->index();
         
         $this->load->view('templates/header', $data);
         $this->load->view('pages/index', $data);

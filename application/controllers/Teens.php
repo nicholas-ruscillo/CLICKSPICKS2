@@ -5,6 +5,7 @@ class Teens extends CI_Controller {
     public function index(){
         $this->load->helper('url');
         $this->load->model('TeensModel');                
+        $this->load->model('AdsModel');
         
         //$data['announcements'] = $this->AnnouncementModel->index();
         $data['title'] = 'Your central jump-point for teen-safe games, education and interest websites - by ClicksPicks';
@@ -14,6 +15,7 @@ class Teens extends CI_Controller {
         $data['css'] = "teens";
         
         $data['picks'] = $this->TeensModel->index();
+        $data['ads'] = $this->AdsModel->index();
         
         $this->load->view('templates/header', $data);
         $this->load->view('pages/index', $data);
