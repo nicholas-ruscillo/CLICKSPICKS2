@@ -55,6 +55,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="teens">Teens</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="seniors">Seniors</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
