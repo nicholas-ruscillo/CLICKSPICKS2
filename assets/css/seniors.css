@@ -1,5 +1,5 @@
 body{
-    background-image: url("../images/teens_background.jpg");
+    background-image: url("../images/seniors_background.jpg");
     background-repeat: repeat;
     background-color: lightgrey;     
 }
@@ -9,11 +9,11 @@ body{
 }
 
 .jumbotron{
-    background-image: linear-gradient(to bottom, #F9787D 0%, #F64A53 100%);
+    background-image: linear-gradient(to bottom, #F2E9D5 0%, #E3D1B9 100%);
 }
 
 #main_content{
-    background-image: linear-gradient(to bottom, #F9787D 0%, #F64A53 100%);
+    background-image: linear-gradient(to bottom, #F2E9D5 0%, #E3D1B9 100%);
 }
 
 footer{
