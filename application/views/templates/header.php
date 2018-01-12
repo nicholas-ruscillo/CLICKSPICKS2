@@ -32,7 +32,7 @@
                     <img src="<?= base_url("assets/images/cp_logo.gif") ?>" border="0" class="img-responsive" />
                 </div>
                 <div class="col-lg-8">
-                    <h1 class="text-md-center">Welcome to ClickPicks!</h1>
+                    <h1 class="text-md-center">Welcome to ClicksPicks!</h1>
                     <h3 class="text-md-center"><?= $subtitle ?></h3>
                 </div>
                 <div class="col-lg-2">
