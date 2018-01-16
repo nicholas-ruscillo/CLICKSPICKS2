@@ -5,15 +5,16 @@
     
     <link href="<?= base_url("assets/images/cp.ico") ?>" rel="shortcut icon" type="image/x-icon" />
     <link href="<?= base_url("assets/images/cp.ico") ?>" rel="icon" type="image/x-icon" />
-    <link rel="stylesheet" href="<?= base_url("assets/css/bootstrap/bootstrap.min.css") ?>" />
+    <link rel="stylesheet" href="<?= base_url("assets/js/bootstrap/css/bootstrap.min.css") ?>" />
     <link rel="stylesheet" href="<?= base_url("assets/css/justified-nav.css") ?>" />
     <link rel="stylesheet" href="<?= base_url("assets/css/content.css") ?>" />
     <link rel="stylesheet" href="<?= base_url("assets/css/footer.css") ?>" />
     <link rel="stylesheet" href="<?= base_url("assets/css/" . $css . ".css") ?>" />
     
-    <script type="text/javascript" src="<?= base_url("assets/js/bootstrap/jquery-slim.min.js") ?>"></script>
-    <script type="text/javascript" src="<?= base_url("assets/js/bootstrap/popper.min.js") ?>"></script>
-    <script type="text/javascript" src="<?= base_url("assets/js/bootstrap/bootstrap.min.js") ?>"></script>
+    <script type="text/javascript" src="<?= base_url("assets/js/bootstrap/js/jquery-slim.min.js") ?>"></script>
+    <script type="text/javascript" src="<?= base_url("assets/js/bootstrap/js/popper.min.js") ?>"></script>
+    <script type="text/javascript" src="<?= base_url("assets/js/bootstrap/js/bootstrap.min.js") ?>"></script>
+    <script type="text/javascript" src="<?= base_url("assets/js/bootstrap/js/modal.js") ?>"></script>
     
     <meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
