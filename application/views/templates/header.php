@@ -14,7 +14,6 @@
     <script type="text/javascript" src="<?= base_url("assets/js/bootstrap/js/jquery-slim.min.js") ?>"></script>
     <script type="text/javascript" src="<?= base_url("assets/js/bootstrap/js/popper.min.js") ?>"></script>
     <script type="text/javascript" src="<?= base_url("assets/js/bootstrap/js/bootstrap.min.js") ?>"></script>
-    <script type="text/javascript" src="<?= base_url("assets/js/bootstrap/js/modal.js") ?>"></script>
     
     <meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
