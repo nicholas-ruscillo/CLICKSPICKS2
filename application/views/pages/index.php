@@ -2,10 +2,10 @@
         <div class="jumbotron rounded">
           <h3>Bookmark ClicksPicks.com and Return Often!</h3>
           <p class="lead"><?= $marketing ?></p>
-          <p><a class="btn btn-sm btn-success" href="#" role="button">Add Your Favourite Sites</a></p>
+          <p><button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#enterPick">Add Your Favourite Sites</button></p>
         </div>
 
-        <!-- Example row of columns -->
+        <!-- main content area -->
         <div id="main_content" class="row" style="margin-bottom:1em;">
             <div class="col-lg-2 text-md-center">
                 <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
@@ -49,4 +49,24 @@
                 <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
             </div>
         </div>
-
+        
+        <!-- modal dialog for entering favourite pick  -->
+        <div id="enterPick" class="modal" tabindex="-1" role="dialog" aria-labelledby="enterPickLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="model-content rounded"  style="background-color:lightgrey;">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="enterPickLabel">Modal Title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        blah blah blah
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
