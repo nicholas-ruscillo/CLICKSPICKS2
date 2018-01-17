@@ -21,6 +21,7 @@
                             <th class="text-md-center"><img src="<?= base_url("assets/images/comments.gif") ?>" border="0" title="comments" alt="comment" /></th>
                             <th class="text-md-center"><img src="<?= base_url("assets/images/yes.gif") ?>" border="0" title="comments" alt="comment" /></th>
                             <th class="text-md-center"><img src="<?= base_url("assets/images/no.gif") ?>" border="0" title="comments" alt="comment" /></th>
+                            <th class="text-md-center"><img src="<?= base_url("assets/images/info.png") ?>" width="30" border="0" title="info" alt="info" /></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -30,11 +31,12 @@
                     foreach( $picks as $pick ){
                         echo '<tr>';
                         echo '<td>' . $rank . '</td>';
-                        echo '<td class="text-left"><a href="' . $pick['url'] . '" target="_blank">' . $pick['title'] . '</a></td>';
+                        echo '<td class="text-left"><a href="' . $pick['url'] . '" target="_blank" title="goto this website" alt="goto this website">' . $pick['title'] . '</a></td>';
                         echo '<td class="text-right">' . $pick['clicks'] . '</td>';
-                        echo '<td class="text-md-center">' . $pick['comments'] . '</td>';
+                        echo '<td class="text-md-center"><a href="#" data-toggle="modal" data-target="#enterComment" title="view or submit your own comments" alt="view or submit your own comments">' . $pick['comments'] . '</a></td>';
                         echo '<td class="text-md-center">' . $pick['positive'] . '</td>';
                         echo '<td class="text-md-center">' . $pick['negative'] . '</td>';                        
+                        echo '<td class="text-md-center"><a href="#" data-toggle="modal" data-target="#viewInfo" title="view information about this site" alt="view information about this site"><i>info</i></a></td>';
                         echo '</tr>';
                         
                         $rank++;
@@ -55,13 +57,13 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="model-content rounded"  style="background-color:lightgrey;">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="enterPickLabel">Modal Title</h5>
+                        <h5 class="modal-title" id="enterPickLabel">Enter Your Favourite Site</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-                        blah blah blah
+                        Picks post modal
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -70,3 +72,45 @@
                 </div>
             </div>
         </div>
+        
+        <!-- modal dialog for entering comments  -->
+        <div id="enterComment" class="modal" tabindex="-1" role="dialog" aria-labelledby="enterCommentLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="model-content rounded"  style="background-color:lightgrey;">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="enterCommentLabel">Enter Comments</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Comments post modal
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        
+        <!-- modal dialog for viewing information  -->
+        <div id="viewInfo" class="modal" tabindex="-1" role="dialog" aria-labelledby="viewInfoLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="model-content rounded"  style="background-color:lightgrey;">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="viewInfoLabel">View Information</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Information modal
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>                
