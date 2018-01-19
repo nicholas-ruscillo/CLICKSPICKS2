@@ -18,10 +18,10 @@
                             <th>Rank</th>
                             <th class="text-left">Website</th>
                             <th class="text-right">Clicks</th>
-                            <th class="text-md-center"><img src="<?= base_url("assets/images/comments.gif") ?>" border="0" title="comments" alt="comment" /></th>
-                            <th class="text-md-center"><img src="<?= base_url("assets/images/yes.gif") ?>" border="0" title="comments" alt="comment" /></th>
-                            <th class="text-md-center"><img src="<?= base_url("assets/images/no.gif") ?>" border="0" title="comments" alt="comment" /></th>
-                            <th class="text-md-center"><img src="<?= base_url("assets/images/info.png") ?>" width="30" border="0" title="info" alt="info" /></th>
+                            <th class="text-md-center"><i class="fas fa-comment-alt" style="font-size:2em;color:yellow;" title="comments" alt="comments"></i></th>
+                            <th class="text-md-center"><i class="fas fa-check-circle" style="font-size:2em;color:chartreuse;" title="approvals" alt="approvals"></i></th>
+                            <th class="text-md-center"><i class="fas fa-times-circle" style="font-size:2em;color:red;" title="disapprovals" alt="disapprovals"></i></th>
+                            <th class="text-md-center"><i class="fas fa-info-circle" style="font-size:2em;color:skyblue;" title="information" alt="information"></i></th>
                         </tr>
                     </thead>
                     <tbody>

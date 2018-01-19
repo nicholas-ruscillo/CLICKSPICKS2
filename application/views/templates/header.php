@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="<?= base_url("assets/css/content.css") ?>" />
     <link rel="stylesheet" href="<?= base_url("assets/css/footer.css") ?>" />
     <link rel="stylesheet" href="<?= base_url("assets/css/" . $css . ".css") ?>" />
+    <link rel="stylesheet" href="<?= base_url("assets/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css") ?>" />
+    
     
     <script type="text/javascript" src="<?= base_url("assets/js/bootstrap/js/jquery-slim.min.js") ?>"></script>
     <script type="text/javascript" src="<?= base_url("assets/js/bootstrap/js/popper.min.js") ?>"></script>
